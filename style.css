@@ -10,19 +10,22 @@ body{
 
 .game-section{
     user-select: none;
+    margin-bottom: 8%;
+    margin-top: 5%;
 }
 
 
 #boton{
     padding: 50px;
-    width: 400px;
-    height: 150px;
-    box-shadow: 0px 0px 15px rgb(0, 0, 0);
+    width: 570px;
+    height: 220px;
+    box-shadow: -8px 0px 13px 5px rgba(0, 0, 0, 0.5) , 8px 0px 13px 5px rgba(0, 0, 0, 0.5);
     background-color: rgb(27, 197, 64);
     border-style: none;
 }
 h1{
-    margin-top: 150px;
+    margin-top: 3%;
+    
 }
 
 .wrapper {
@@ -62,24 +65,100 @@ h1{
     }
 }
 
-
+.game-section{
+    justify-self: center;
+}
 
 .btncontenedor{
     display: flex;
-    width: 400px;
-    height: 150px;    
+    width: 570px;
+    height: 220px;
     justify-content: center;
     align-items: center;
+    margin-top: 3%;
 }
 
 .btncontenedor p{
     color: rgb(0, 0, 0);
     font-weight: 700;
-    font-size: 27px;
+    font-size: 40px;
     position: absolute;
     z-index: 20;
+    
 }
 .btncontenedor button{
     position: absolute;
     z-index: 10;
 }
+
+/* Efecto de escala */
+.scale-effect {
+    transform: scale(1.4); /* Aumenta el tamaño al 150% */
+    transition: transform 0.2s ease; /* Transición suave */
+}
+
+.ads-section{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+}
+
+
+
+article{
+    /* background-color: rgb(214, 209, 209);
+    color: black; */
+    /* background-color: rgb(1, 7, 41);
+    color: rgb(201, 194, 194); */
+    background-color: rgb(22, 21, 21);
+    color: rgb(173, 159, 159);
+    border-radius: 5px;
+    padding: 1px;
+    max-width: 590px;
+    justify-self: center;
+    letter-spacing: 0.4px;
+    padding-inline: 10px;
+    
+}
+.article-main{
+    margin-bottom: 30px;
+}
+
+/* article header{
+    background-color: rgb(12, 12, 12);
+    color: rgb(177, 163, 163);
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -21px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    
+} */
+
+article header{
+    
+    margin-left: -10px;
+    margin-right: -10px;
+    margin-top: -21px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+h2{
+    padding: 10px;
+    border-bottom: solid 1px rgb(59, 57, 57) ;  
+    justify-self: center;
+    width: 93%;
+}
+h3{
+    padding: 10px;
+    border-bottom: solid 1px rgb(59, 57, 57) ;  
+    justify-self: center;
+    width: 93%;
+}
+
+ul{
+    list-style: none;
+    
+}
+

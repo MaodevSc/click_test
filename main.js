@@ -45,12 +45,6 @@ async function maxvalue(contador){
     maxcps.innerHTML = valormaximo;
 }
 
-async function efectoTxt(){
-    
-    document.getElementById("mcount").style.fontSize="35px";
-    await delay(300);
-    document.getElementById("mcount").style.fontSize="32px";
-}
 
 const buttons = document.querySelectorAll(".wrapper");
 
@@ -86,22 +80,12 @@ buttons.forEach((button)=> {
     
 });
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+// Efecto visual con escala
+async function efectoTxt() {
+    mcount.classList.add("scale-effect"); // Agrega la clase para el efecto
+    await delay(100); // Espera a que termine el efecto
+    mcount.classList.remove("scale-effect"); // Remueve la clase
+}
 
 
 
