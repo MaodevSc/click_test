@@ -143,6 +143,11 @@ article header{
     border-top-left-radius: 5px;
     border-top-right-radius: 5px;
 }
+article p{ 
+    line-height: 1.5rem;
+}
+
+
 
 h2{
     padding: 10px;
@@ -162,3 +167,20 @@ ul{
     
 }
 
+
+.article2 h3{
+    color: rgba(194, 235, 11, 0.89);
+}
+
+.enfasis{
+    color: rgba(239, 240, 231, 0.89);
+}
+.article2 ul{
+    color: rgba(239, 240, 231, 0.89);
+}
+.article2 h4{
+    color: rgba(239, 240, 231, 0.89);
+}
+.caution h3{
+    color: red;
+}

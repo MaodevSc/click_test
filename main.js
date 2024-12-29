@@ -50,8 +50,13 @@ const buttons = document.querySelectorAll(".wrapper");
 
 buttons.forEach((button)=> {
     button.onclick = function(e){
-        let x = e.clientX - e.target.offsetLeft;
-        let y = e.clientY - e.target.offsetTop;
+
+        // let x = e.clientX - e.target.offsetLeft;
+        // let y = e.clientY - e.target.offsetTop;
+
+        let x = e.clientX + window.scrollX - e.target.offsetLeft;
+        let y = e.clientY + window.scrollY - e.target.offsetTop;
+
         let ripple = document.createElement("span");
         ripple.style.left = `${x}px`;
         ripple.style.top = `${y}px`;
@@ -66,8 +71,13 @@ buttons.forEach((button)=> {
 
 buttons.forEach((button)=> {
     button.oncontextmenu = function(e){
-        let x = e.clientX - e.target.offsetLeft;
-        let y = e.clientY - e.target.offsetTop;
+
+        // let x = e.clientX - e.target.offsetLeft;
+        // let y = e.clientY - e.target.offsetTop;
+
+        let x = e.clientX + window.scrollX - e.target.offsetLeft;
+        let y = e.clientY + window.scrollY - e.target.offsetTop;
+
         let ripple = document.createElement("span");
         ripple.style.left = `${x}px`;
         ripple.style.top = `${y}px`;
