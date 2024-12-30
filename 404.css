@@ -42,7 +42,7 @@ body {
   }
 
   h1 {
-    animation: shake 1s ease-in-out infinite alternate;
+    animation: shake 2.5s ease-in-out infinite alternate;
   }
   
   @keyframes shake {

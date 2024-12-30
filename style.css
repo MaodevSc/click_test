@@ -184,3 +184,59 @@ ul{
 .caution h3{
     color: red;
 }
+
+
+
+
+
+/* Estilos para dispositivos móviles */
+@media screen and (max-width: 760px) {
+    body {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.5rem;
+        margin-top: 2%;
+    }
+
+    #boton {
+        padding: 30px;
+        width: 90%;
+        height: 200px;
+        font-size: 1.2rem;
+        box-shadow: -5px 0px 8px 3px rgba(0, 0, 0, 0.5), 5px 0px 8px 3px rgba(0, 0, 0, 0.5);
+    }
+
+    .btncontenedor {
+        width: 100%;
+        height: 200px;
+        margin-top: 2%;
+    }
+
+   
+    article {
+        max-width: 100%;
+        padding-inline: 5px;
+        font-size: 0.9rem;
+    }
+
+    h2, h3 {
+        font-size: 1rem;
+        width: 100%;
+        padding: 15px;
+    }
+
+    .article-main {
+        margin-bottom: 20px;
+    }
+
+    .game-section {
+        margin-top: 3%;
+        margin-bottom: 5%;
+    }
+
+    ul {
+        padding: 0;
+    }
+}
